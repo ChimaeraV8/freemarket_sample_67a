@@ -55,7 +55,7 @@ https://www.resume.id/works/5c189d35c1612993
 |municipality|string|null: false|
 |address|string|null: false|
 |building_name|string|
-|tel|string|
+|tel|integer|
 ## Association
 - belongs_to_active_hash :prefecture
 - belongs_to: user
