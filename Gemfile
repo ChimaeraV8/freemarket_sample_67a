@@ -72,9 +72,10 @@ gem 'payjp'
 gem 'kaminari'
 gem 'gretel'
 gem 'ransack'
+gem 'dotenv-rails'
 
 group :production do
-  gem 'unicorn', '5.4.1'
+  gem 'unicorn'
 end
 
 group :development, :test do
@@ -82,11 +83,9 @@ group :development, :test do
   gem 'capistrano-rbenv'
   gem 'capistrano-bundler'
   gem 'capistrano-rails'
-  gem 'capistrano3-unicorn'
   gem 'rspec-rails', '~> 3.5'
   gem 'rails-controller-testing'
   gem 'factory_bot_rails'
   gem 'gimei'
 
 end
-
